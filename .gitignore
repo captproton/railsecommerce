@@ -1,0 +1,11 @@
+public/dispatch.fcgi
+log/*.log
+db/*.db
+tmp
+pkg
+.DS_Store
+db/schema.rb
+config/deploy.rb
+config/database.yml
+config/locomotive.yml
+public/dispatch.fcgi

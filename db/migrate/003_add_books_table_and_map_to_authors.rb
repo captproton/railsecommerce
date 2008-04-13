@@ -4,7 +4,7 @@ class AddBooksTableAndMapToAuthors < ActiveRecord::Migration
       table.column :title, :string, :limit => 255, :null => false
       table.column :publisher_id, :integer, :null => false
       table.column :price, :float, :default => 0.0
-      table.column :page_count, :integer, default => 0
+      table.column :page_count, :integer, :default => 0
     end
 
     create_table :authors_books do |table|
